@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&display=swap');
+
+*{
+    margin: 0;
+    line-height: 30px;
+}
+
+.header-site{
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(imagens/macacocapa.jpg);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: #ffffff;
+    padding-top: 250px;
+    padding-bottom: 230px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 50px;
+}
+
+.lead-text-center{
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+}
+
+.content-site{
+    padding-top: 95px;
+    padding-bottom: 85px;
+    font-family: 'Poppins', sans-serif;
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.imagem {
+    width: 275px;
+    height: 275px;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.img-site{
+    color: #000000;
+    background-color: #EDEEF3;
+    padding: 50px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 50px;
+}
+
+.footer-site{
+    background-color: #1DAD67;
+    color:#000000;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.row-project{
+    font-family: 'Poppins', sans-serif;
+    font-size: 50px;
+}
+
+.btn-danger{
+    background: #000000;
+	color: #ffffff;
+	border-style:solid;
+	border-color: #1DAD67;
+	text-shadow: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    text-decoration: none;
+    padding: 10px;
+    position: inherit;
+    width: 270px;
+    margin-top: 20px 0;
+}
+
+.btn-danger:hover {
+	background: #1DAD67;
+	color: #ffffff;
+	border: 1px solid #1DAD67;
+	text-shadow: none;
+    text-decoration: none;
+}
+
+.container-me{
+   margin-left: 150px;
+   margin-right: 150px;
+   margin-top: 50px;
+   margin-bottom: 50px;
+   text-align: center;
+}
