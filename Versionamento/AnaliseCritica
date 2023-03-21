@@ -1,0 +1,6 @@
+# Autora: Letícia Beatriz Souza
+# Descrição: Análise crítica sobre versionamento.
+
+  O versionamento é uma ferramenta de suma importância para a construção de um sistema, ela evita que o desenvolvedor tenha que salvar diversos arquivos para gerir um projeto, afinal, contribui com a sua organização ao gerar versões a cada incremento significativo para o desenvolvimento do seu código. Dessa forma, ao gerenciar essa construção, o versionamento garante segurança ao programador, permitindo que qualquer versão anterior seja restaurada a qualquer momento. 
+  Esse processo é análogo ao desenvolvimento de um sistema, utilizando, na maioria das vezes, uma IDE, como a ferramenta Git, pela qual é possível criar repositórios e realizar o versionamento de um projeto através de alguns comandos próprios, abrigando-os na plataforma GitHub. 
+  As vantagens dessa prática são inúmeras, relacionando-se desde à organização pessoal até ao gerenciamento de um projeto em equipe, permitindo que versões anteriores estejam salvas e que possam ser retomadas ou consultadas sempre que necessárias. Ou seja, é muito importante para o desenvolvimento de um projeto de forma mais prática, ágil e estruturada.
