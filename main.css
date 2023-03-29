@@ -63,7 +63,6 @@
     padding: 50px;
     font-family: 'Poppins', sans-serif;
     font-size: 50px;
-	margin-bottom: 500px;
 }
 
 .footer-site{
@@ -107,7 +106,7 @@
    margin-left: 150px;
    margin-right: 150px;
    margin-top: 50px;
-   margin-bottom: 300px;
+   margin-bottom: 0px;
    text-align: center;
 }
 
