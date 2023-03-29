@@ -1,4 +1,3 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&display=swap');
 
 *{
@@ -26,7 +25,7 @@
 
 .content-site{
     padding-top: 120px;
-    padding-bottom: 80px;
+    padding-bottom: 70px;
     font-family: 'Poppins', sans-serif;
     background-color: #000000;
     color: #ffffff;    
@@ -106,7 +105,7 @@
    margin-left: 150px;
    margin-right: 150px;
    margin-top: 50px;
-   margin-bottom: 200px;
+   margin-bottom: 100px;
    text-align: center;
 }
 
@@ -127,11 +126,3 @@
 .caption-text-center{
     margin-bottom: 10px;
 }
-
-.img-eu{
-	width: 300px;
-    height: 300px;
-    margin-right: 70pt;
-    
-
-
