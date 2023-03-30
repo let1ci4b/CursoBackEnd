@@ -3,126 +3,143 @@
 *{
     margin: 0;
     line-height: 30px;
+    font-family: 'Poppins', sans-serif;
 }
 
 .header-site{
-    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(imagens/macacocapa.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(img/capaaaam.jpg);
     background-position: center top;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
     color: #ffffff;
     padding-top: 250px;
-    padding-bottom: 230px;
+    padding-bottom: 155px;
     font-family: 'Poppins', sans-serif;
     font-size: 50px;
 }
 
-.lead-text-center{
+.calcular{
+    background-color: #FFDE59;
+    padding-top: 180px;
+    padding-bottom: 140px;
+}
+
+#num{
+    border-radius: 20px;
+    width: 300px;
+}
+
+.title-calc{
     font-family: 'Poppins', sans-serif;
-    font-size: 15px;
-}
-
-.content-site{
-    padding-top: 120px;
-    padding-bottom: 70px;
-    font-family: 'Poppins', sans-serif;
-    background-color: #000000;
-    color: #ffffff;    
-    
-}
-
-.imagem {
-    width: 30px;
-    height: 30px;
-    display: inline-block;
-    margin-left: 70pt;
-    margin-right: 70pt;
-}
-
-.imagem1 {
-    width: 30px;
-    height: 30px;
-    display: inline-block;
-    margin-left: 70pt;
-    margin-right: 70pt;
-}
-
-.imagem2 {
-    width: 30px;
-    height: 30px;
-    display: inline-block;
-    margin-left: 70pt;
-    margin-right: 70pt;
-}
-
-.img-site{
-    color: #000000;
-    background-color: #EDEEF3;
-    padding: 50px;
-    font-family: 'Poppins', sans-serif;
-    font-size: 50px;
-}
-
-.footer-site{
-    background-color: #1DAD67;
-    color:#000000;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    font-family: 'Poppins', sans-serif;
-}
-
-.row-project{
-    font-family: 'Poppins', sans-serif;
-    font-size: 50px;
+    text-align: center;
+    font-size: 30px;
 }
 
 .btn-danger{
     background: #000000;
 	color: #ffffff;
 	border-style:solid;
-	border-color: #1DAD67;
+	border-color: #000000;
 	text-shadow: none;
     font-family: 'Poppins', sans-serif;
-    font-size: 10.5px;
+    font-size: 20px;
     text-decoration: none;
     padding: 7px;
-    position: inherit;
-    width: 200px;
+    text-align: center;
+    width: 70px;
     margin-top: 20px 0;
     line-height: 13pt;
+    margin-bottom: 10px;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 100px;
+    margin-right: 10px;
+    margin-left: 10px;
 }
 
 .btn-danger:hover {
-	background: #1DAD67;
+	background: #000000;
 	color: #ffffff;
-	border: 1px solid #1DAD67;
+	border: 1px solid #000000;
+	box-shadow: 5px 3px 3px black;
+    text-decoration: none;
+}
+
+.button{
+    display: inline-block;
+}
+
+.button-n{
+    display: inline-block;
+}
+
+.btn-danger-n{
+    background: #FFDE59;
+	color: #000000;
+	border-style:solid;
+	border-color: #000000;
+	text-shadow: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 7px;
+    text-align: center;
+    width: 70px;
+    margin-top: 20px 0;
+    line-height: 13pt;
+    margin-bottom: 10px;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 100px;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.btn-danger-n:hover {
+	background: #000000;
+	color: #ffffff;
+	border: 1px solid #000000;
 	text-shadow: none;
     text-decoration: none;
 }
 
-.container-me{
-   margin-left: 150px;
-   margin-right: 150px;
-   margin-top: 50px;
-   margin-bottom: 100px;
-   text-align: center;
+span{
+    background: #FFDE59;
+	color: #000000;
+	border-style:solid;
+	border-color: #000000;
+	text-shadow: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+    text-decoration: none;
+    padding: 7px;
+    width: 800px;
+    display: flex;
+    height: 30px;
+    cursor: pointer;
+    border-radius: 100px;
+    margin-right: 20px;
+    display: inline-block;
+    margin-left: 220px;
 }
 
-.holder1{
-    margin-bottom: 20px;
-    text-align: inherit;
-    margin-left: -80px;
-    margin-right: 100px;
+.result-line{
+    display: inline-block;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 50px;
+    cursor: pointer;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
 }
 
-.holder{
-    margin-bottom: 40px;
-    text-align: inherit;
-    margin-left: -80px;
-    margin-right: 100px;
+.banana{
+    width: 70px;
+    display: inline-block;
+    margin-right: 180px;
 }
 
-.caption-text-center{
-    margin-bottom: 10px;
+.banana:hover{
+    width: 80px;
 }
