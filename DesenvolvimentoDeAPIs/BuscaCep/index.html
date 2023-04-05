@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link href="style.css" type="text/css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div style="text-align: center;">
+        <h1 style="font-size: 40px; margin: 25px;"><br><br>Aula de JSON</h1>
+        <input class="campos" type="text" id="nome" placeholder="&nbsp;Nome"><br>
+        <input class="campos-c" type="number" id="cep" placeholder="&nbsp;Digite o CEP">
+        <button class="btn" onclick="buscEndereco()">Buscar CEP</button>
+        <br><input class="campos" type="text" id="rua" placeholder="&nbsp;Logradouro"><br>
+        <input class="campos" type="text" id="bairro" placeholder="&nbsp;Bairro"><br>
+        <input class="campos" type="text" id="cidade" placeholder="&nbsp;Cidade"><br>
+        <input class="campos" type="text" id="estado" placeholder="&nbsp;Estado"><br>
+        <input class="campos" type="text" id="pais" placeholder="&nbsp;País"><br>
+        <button class="btn-c" onclick="cadastro()">Cadastrar</button>
+    </div>
+</body>
+</html>
+<script>
+    var nome, cep, rua, bairro, cidade, estado, pais;
+    function defineCampos(){
+        nome = document.getElementById("nome");
+        cep = document.getElementById("cep");
+        rua = document.getElementById("rua");
+        bairro = document.getElementById("bairro");
+        cidade = document.getElementById("cidade");
+        estado = document.getElementById("estado");
+        pais = document.getElementById("pais");
+    }
+    function buscEndereco(){
+        defineCampos();
+        if (cep.value.length != 8) {
+            alert('Preencha corretamente os campos!');
+        } else{
+        var cepValido = cep.value.substr(0,5)+"-"+cep.value.substr(5);
+        var url = "https://my-json-server.typicode.com/Taymoreas/curso-Back-end/cep/?code="+cepValido; //transito entre as pags
+        fetch(url)
+            .then(res => res.json())
+            .then(data =>{
+            rua.value = data[0].address;
+            bairro.value = data[0].district;
+            cidade.value = data[0].city;
+            estado.value = data[0].state;
+            pais.value = "Brasil";
+        })
+     }
+    }
+
+    function cadastro(){
+        defineCampos();
+        var pessoa = { 
+            nome: nome.value,
+            cep: cep.value,
+            rua: rua.value,
+            bairro: bairro.value,
+            cidade: cidade.value,
+            estado: estado.value,
+            pais: pais.value
+        }
+        var lista = JSON.parse(localStorage.getItem("Pessoas")) //baixando lista do localStorage
+        if(lista == null){
+            lista = []; //criando novo array se não tiver a lista do localStorage
+        }
+        lista.push(pessoa); // baixa lista
+        localStorage.setItem("Pessoas", JSON.stringify(lista)); // altera o item que está no localStorage / ify = transforma a lista em string
+    }
+
+</script>
