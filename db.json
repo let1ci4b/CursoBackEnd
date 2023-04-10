@@ -1,0 +1,72 @@
+{
+    "automoveis":[
+        {
+            "placa": "dud2l11",
+            "marca": "Toyota",
+            "modelo": "Corolla",
+            "ano": "2018/2019"
+        },
+
+        {
+            "placa": "lin5d25",
+            "marca": "Porche",
+            "modelo": "Taycan",
+            "ano": "2020/2021"
+        },
+
+        {
+            "placa": "rds8t21",
+            "marca": "BMW",
+            "modelo": "MINI Cooper",
+            "ano": "2009"
+        },
+
+        { 
+            "placa": "bds4m22",
+            "marca": "Fiat",
+            "modelo": "Corsa",
+            "ano": "2004"
+        },
+
+        {
+            "placa": "vsf6p05",
+            "marca": "Volkswagem",
+            "modelo": "Fusca",
+            "ano": "1976"
+        },
+
+        {
+            "placa": "aba4a69",
+            "marca": "Chevrolet",
+            "modelo": "S10",
+            "ano": "2020/2021"
+        },
+
+        {
+            "placa": "ubf2k45",
+            "marca": "Honda",
+            "modelo": "Civic",
+            "ano": "2016"
+        },
+        
+        {
+            "placa": "wag2t65",
+            "marca": "Renault",
+            "modelo": "Sandero",
+            "ano": "2014"
+        },
+
+        {
+            "placa": "ahd2033",
+            "marca": "Volkswagen",
+            "modelo": "Brasilia",
+            "ano": "1974"
+        },
+
+        {
+            "placa": "dud2d23",
+            "marca": "Fiat",
+            "modelo": "Uno",
+            "ano": "2006"
+        }
+    ]}
