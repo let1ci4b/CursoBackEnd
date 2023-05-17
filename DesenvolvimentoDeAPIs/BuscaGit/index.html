@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link href="main.css" type="text/css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div style="text-align: center;">
+        <h1 style="font-size: 40px; margin-bottom: 20px; margin-top: 70px;">GITHBUB PROFILE</h1>
+    <form onsubmit="return getProfile()">
+        <input class="campos" type="text" id="user" placeholder="&nbsp;Username"
+        required>
+        <button class="btn-c" type="submit">Buscar</button>
+    </form>
+        <img text-align="center" id="fotoo" src="https://i.pinimg.com/564x/ba/2a/f1/ba2af175e30c945beb780bdd3a2bc70d.jpg" alt="foto"><br>
+    </div>
+    <div id="oi"></div>
+</body>
+</html>
+
+<script>
+    function getProfile(){
+        event.preventDefault(); // previne a ação padrão do sistema operacional
+        username = document.getElementById("user").value;
+        var url = `https://api.github.com/users/${username}`; //transito entre as pags
+        fetch(url)
+            .then(res => res.json())
+            .then(data =>{
+        const oi = document.getElementById("oi"); 
+        if(data.message == "Not Found"){
+            oi.innerHTML = `<p class="campos-c">Usuário não encontrado!</p>`
+            img.src= "https://i.pinimg.com/564x/ba/2a/f1/ba2af175e30c945beb780bdd3a2bc70d.jpg";
+        } else if(data.message == "API rate limit exceeded for 189.8.205.19. (But here's the good news: Authenticated requests get a higher rate limit. Check out the documentation for more details.)"){
+                  oi.innerHTML = `<p class="campos-c">API sobrecarregada!</p>`;
+                  img.src= "https://i.pinimg.com/564x/ba/2a/f1/ba2af175e30c945beb780bdd3a2bc70d.jpg";
+        } else{
+                oi.innerHTML = `
+                <h2 class="campos-c" style="font-size: 30px;">${data.name}</h2>
+                <p class="campos-c">Nome de usuário: ${data.login}</p>
+                <p class="campos-c">Repositórios públicos: ${data.public_repos}</p>
+                <p class="campos-c">Seguidores: ${data.followers}</p>
+                <p class="campos-c">Seguindo: ${data.following}</p>
+                <p class="campos-c"><a href="${data.html_url}">Repositório</a></p>
+                `;
+
+                img = document.getElementById("fotoo");
+                img.src = data.avatar_url;
+            }
+        })
+    }
+</script>
