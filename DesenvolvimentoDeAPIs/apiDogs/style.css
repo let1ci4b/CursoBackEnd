@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&display=swap');
+
+* {
+  margin: 0;
+  background-color: #ffffff;
+  font-family: 'Poppins', sans-serif;
+}
+
+.container{
+  text-align: center;
+}
+
+#title{
+  font-size: 75px;
+  padding-top: 3%;
+  padding-bottom: 0.5%;
+}
+
+.breeds {
+  text-align: center;
+  font-size: 20px;
+  padding: 0.3%;
+  text-transform: capitalize;
+}
+
+#dog-img{
+  width: 35%;
+  margin-top: 2%;
+  text-align: center;
+  padding-bottom: 50px;
+}
+
