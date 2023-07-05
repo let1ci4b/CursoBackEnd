@@ -1,3 +1,68 @@
 # 👨‍💻 Aprendizagem Industrial - Programação Back-End
 
 Repositório criado com o intuito de organizar as atividades pessoais do curso de Aprendizagem Industrial em programação Back-End.
+
+[Acesse aqui meu repositório](https://let1ci4b.github.io/CursoBackEnd/)
+
+## Banco de dados
+[Banco de Dados Stored Procedures](https://github.com/let1ci4b/CursoBackEnd/blob/main/BancoDeDados/Banco%20de%20Dados%20SP.pdf)
+
+[Script - Banco de dados para uma pizzaria](BancoDeDados/dbPizzaria.sql)
+
+[Diagrama ER - Banco de dados para uma pizzaria](BancoDeDados/diagramaPizzaria.drawio.png)
+
+[Fluxograma - Como cozinhar miojo](https://lucid.app/lucidchart/f375bef0-2a2f-4a48-ac25-552fbd637b91/edit?viewport_loc=-1074%2C177%2C4084%2C1700%2C0_0&invitationId=inv_808c0ec1-a86b-4194-a68c-bc3abc495a11)
+
+##
+
+## Codificação Back-End
+
+[Back-End básico sobre cursos](CodificacaoBackEnd/aulaobk)
+
+[Back-End básico com Banco de Dados](CodificacaoBackEnd/bancoDados)
+
+[Levantamento de requisitos - Sistema para funcionários de uma empresa](https://github.com/let1ci4b/CursoBackEnd/blob/main/CodificacaoBackEnd/sistema%20senaiGamer%20(1).pdf))
+
+##
+
+## Desenvolvimento de API's
+
+[Sistema que busca CEP](DesenvolvimentoDeAPIs/BuscaCep)
+
+[Sistema que busca perfil do GitHub](DesenvolvimentoDeAPIs/BuscaGit)
+
+[Sistema que busca placa de automóvel](DesenvolvimentoDeAPIs/BuscaPlaca)
+
+[Sistema que retorna uma foto aleatória de uma raça de cachorro escolhida](DesenvolvimentoDeAPIs/apiDogs)
+
+[Servidor React conectado a um servidor Node - Veículos](DesenvolvimentoDeAPIs/ReactServer)
+
+[Servidor Node conectado a um servidor React - Veículos](DesenvolvimentoDeAPIs/apiServer_react)
+
+[Servidor React conectado a um servidor Node - Pessoas](DesenvolvimentoDeAPIs/ReactPessoa)
+
+[Servidor Node conectado a um servidor React - Pessoas](DesenvolvimentoDeAPIs/apiPessoa)
+
+[Servidor Node - CEP](DesenvolvimentoDeAPIs/apiServer_react/index2.js)
+
+[Apresentação de slides - API's](DesenvolvimentoDeAPIs/API.pdf)
+
+## Desenvolvimento socioprofissional
+
+## Fundamentos de comunicação, informação e análise de dados
+
+## Fundamentos de qualidade e produtividade
+
+## Introdução a indústria 4.0
+
+## Lógica de programação
+
+## Metodologias ágeis
+
+## Sustentabilidade e processos industriais
+
+## Sustentabilidade, saúde e segurança do trabalho
+
+## Testes para Back-End
+
+## Versionamento
