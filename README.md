@@ -23,6 +23,8 @@ Repositório criado com o intuito de organizar as atividades pessoais do curso d
 
 [Levantamento de requisitos - Sistema para funcionários de uma empresa](https://github.com/let1ci4b/CursoBackEnd/blob/main/CodificacaoBackEnd/sistema%20senaiGamer%20(1).pdf))
 
+[Jogo da velha com React](CodificacaoBackEnd/reactjogo.7z)
+
 ##
 
 ## Desenvolvimento de API's
@@ -63,6 +65,10 @@ Repositório criado com o intuito de organizar as atividades pessoais do curso d
 
 ## Introdução a indústria 4.0
 
+[Certificado curso - Indústria 4.0](IntroducaoIndustria4.0/certificadoIndustria4.0.pdf)
+
+[Reunião no Google Meet - O uso do Chat GPT](IntroducaoIndustria4.0/reuniaoUsoChatGPT.pdf)
+
 ## Lógica de programação
 
 [Bomba de gasolina](LogicaProgramao/bombaGasolina.js)
@@ -102,6 +108,12 @@ Repositório criado com o intuito de organizar as atividades pessoais do curso d
 ## Sustentabilidade e processos industriais
 
 ## Sustentabilidade, saúde e segurança do trabalho
+
+[Cartazes - Informações sobre EPI's](SustentabilidadeSaudeSegurancaDoTrabalho/cartazesEPI.pdf)
+
+[Apresentação - Riscos biológicos](SustentabilidadeSaudeSegurancaDoTrabalho/riscosBiologicos.pdf)
+
+[Questionário - Caso sobre segurança do trabalho](SustentabilidadeSaudeSegurancaDoTrabalho/segurancaTrabalhoQuestionario.pdf)
 
 ## Testes para Back-End
 
