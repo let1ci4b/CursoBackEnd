@@ -47,7 +47,15 @@ Repositório criado com o intuito de organizar as atividades pessoais do curso d
 
 [Apresentação de slides - API's](DesenvolvimentoDeAPIs/API.pdf)
 
+[Como configurar servidor Node - Veículos](DesenvolvimentoDeAPIs/nodeVeiculos.pdf)
+
 ## Desenvolvimento socioprofissional
+
+[Exemplo de figuas empreendedoras](DesenvolvimentoSocioprofissional/figurasEmpreendedoras.pdf)
+
+[Questionário - A rede social](DesenvolvimentoSocioprofissional/questionarioRedeSocial.pdf)
+
+[Ética VS empreendedorismo](DesenvolvimentoSocioprofissional/EticaVsEmpreendedorismo.pdf)
 
 ## Fundamentos de comunicação, informação e análise de dados
 
@@ -57,7 +65,39 @@ Repositório criado com o intuito de organizar as atividades pessoais do curso d
 
 ## Lógica de programação
 
+[Bomba de gasolina](LogicaProgramao/bombaGasolina.js)
+
+[Cálculo de salário](LogicaProgramao/calculaSalario.js)
+
+[Funções com array](LogicaProgramao/funcoesArray.js)
+
+[Idade em dias](LogicaProgramao/idadeDias.js)
+
+[Ímpar ou par - if ternário](LogicaProgramao/imparParTernario.js)
+
+[Função inclusivo](LogicaProgramao/inclusivo.js)
+
+[Função inclusivo - if ternário](LogicaProgramao/inclusivoTernario.js)
+
+[Sistema para livraria](LogicaProgramao/livraria.js)
+
+[Função maior número](LogicaProgramao/maiorNumero.js)
+
+[Funções com manipulação de objeto](LogicaProgramao/manipulacaoObjeto.js)
+
+[Meses - Switch case](LogicaProgramao/meses.js)
+
+[Função multiplicação alternativa](LogicaProgramao/multiplicacaoAlt.js)
+
+[Número booleano](LogicaProgramao/numBooleano.js)
+
+[Sistema de pedra, papel e tesoura](LogicaProgramao/pedraPapelTesoura.js)
+
+[Sietema de notas](LogicaProgramao/sistemaNotas.js)
+
 ## Metodologias ágeis
+
+[Projeto SCRUM - Maquete](MetodologiasAgeis/projetoLego.png)
 
 ## Sustentabilidade e processos industriais
 
@@ -66,3 +106,8 @@ Repositório criado com o intuito de organizar as atividades pessoais do curso d
 ## Testes para Back-End
 
 ## Versionamento
+
+[Análise crítica sobre versionamento](Versionamento/AnaliseCritica)
+
+[Tutorial - Git Bash](Versionamento/TutorialGitBash)
+
