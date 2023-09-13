@@ -21,7 +21,7 @@ Repositório criado com o intuito de organizar as atividades pessoais do curso d
 
 [Back-End básico com Banco de Dados](CodificacaoBackEnd/bancoDados)
 
-[Levantamento de requisitos - Sistema para funcionários de uma empresa](https://github.com/let1ci4b/CursoBackEnd/blob/main/CodificacaoBackEnd/sistema%20senaiGamer%20(1).pdf))
+[Levantamento de requisitos - Sistema para funcionários de uma empresa](https://github.com/let1ci4b/CursoBackEnd/blob/main/CodificacaoBackEnd/sistema%20senaiGamer%20(1).pdf)
 
 [Jogo da velha com React](CodificacaoBackEnd/reactjogo.7z)
 
