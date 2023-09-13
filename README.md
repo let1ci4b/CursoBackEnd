@@ -63,6 +63,8 @@ Repositório criado com o intuito de organizar as atividades pessoais do curso d
 
 ## Fundamentos de qualidade e produtividade
 
+[Plano de ação - Matriz 5W2H](FundamentosQualidadeProdutividade/5w2h.pdf)
+
 ## Introdução a indústria 4.0
 
 [Certificado curso - Indústria 4.0](IntroducaoIndustria4.0/certificadoIndustria4.0.pdf)
@@ -106,6 +108,10 @@ Repositório criado com o intuito de organizar as atividades pessoais do curso d
 [Projeto SCRUM - Maquete](MetodologiasAgeis/projetoLego.png)
 
 ## Sustentabilidade e processos industriais
+
+[Extinçãoo de espécies - Apresentação](SustentabilidadeProcessosIndustriais/sustentabilidadeComunicacaoPPT.pdf)
+
+[Extinçãoo de espécies - Documento](SustentabilidadeProcessosIndustriais/sustentabilidadeComunicacao.pdf)
 
 ## Sustentabilidade, saúde e segurança do trabalho
 
